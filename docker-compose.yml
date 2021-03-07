@@ -11,7 +11,6 @@ services:
       TP_JOB_ID: $TP_JOB_ID
       TP_JOB_PARAMS: '"jobParameters" : {"browsers": [ "chrome" ]}'
       CHROME: "chrome:4444"
-      FIREFOX: "firefox:4444"
     ports:
       - "8888:8589"
   chrome:
