@@ -9,7 +9,7 @@ services:
       TP_AGENT_TEMP: "true"
       TP_API_KEY: $TP_API_KEY
       TP_JOB_ID: $TP_JOB_ID
-      TP_JOB_PARAMS: '"jobParameters" : {"browsers": [ "chrome" ],  "testParameters": [{"data": [{"dataSourceId": "Ir3CFoqv3kmx4IeRscFdSQ"}]}]}'
+      TP_JOB_PARAMS: '"jobParameters" : {"browsers": [ "chrome" ]}'
       CHROME: "chrome:4444"
       FIREFOX: "firefox:4444"
     ports:
